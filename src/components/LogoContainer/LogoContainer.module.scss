@@ -1,0 +1,18 @@
+@use '../../styles/const.scss';
+
+.logo_container {
+  display: flex;
+  justify-content: center;
+  column-gap: 0.5rem;
+
+  div {
+    color: const.$black;
+    text-transform: uppercase;
+    align-self: center;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+  }
+}

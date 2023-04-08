@@ -1,0 +1,17 @@
+@use '../../styles/const.scss';
+
+.link {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: const.$dark-blue;
+}
+
+.small {
+  font-size: 12px;
+}
+
+.medium {
+  font-size: 18px;
+}

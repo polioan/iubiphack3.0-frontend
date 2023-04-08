@@ -1,0 +1,14 @@
+@use '../../styles/const.scss';
+
+.btn {
+  background-color: const.$blue;
+  color: const.$white;
+  border-radius: const.$border-radius;
+  border: none;
+  padding: const.$small-padding;
+
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}

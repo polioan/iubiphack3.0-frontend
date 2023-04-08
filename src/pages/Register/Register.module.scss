@@ -1,0 +1,19 @@
+@use '../../styles/const.scss';
+
+.container {
+  height: 100dvh;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.continue_container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  a {
+    align-self: center;
+  }
+}

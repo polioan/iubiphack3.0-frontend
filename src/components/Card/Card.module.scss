@@ -1,0 +1,15 @@
+@use '../../styles/const.scss';
+
+.card {
+  min-width: 425px;
+  background-color: const.$white;
+  box-shadow: 7px 4px 10px rgba(81, 38, 205, 0.25);
+  border-radius: const.$border-radius;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
