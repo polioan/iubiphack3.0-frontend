@@ -1,23 +1,16 @@
 import cl from './Card.module.scss'
 import cn from 'classnames'
 
-interface CardProps {
+interface CardProps extends React.FormHTMLAttributes<HTMLFormElement> {
   children?: React.ReactNode
   className?: string | undefined
-  as: React.ElementType
 }
 
-const Card: React.FC<CardProps> = ({
-  children,
-  className,
-  as,
-  ...otherProps
-}) => {
-  const Component = as
+const Card: React.FC<CardProps> = ({ children, className, ...otherProps }) => {
   return (
-    <Component className={cn(cl.card, className)} {...otherProps}>
+    <form className={cn(cl.card, className)} {...otherProps}>
       {children}
-    </Component>
+    </form>
   )
 }
 

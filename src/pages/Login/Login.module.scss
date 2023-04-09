@@ -15,3 +15,12 @@
     align-self: center;
   }
 }
+
+.google {
+  display: flex;
+  justify-content: center;
+
+  iframe {
+    margin: -2px 0px !important;
+  }
+}

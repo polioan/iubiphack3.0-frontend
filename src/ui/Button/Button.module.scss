@@ -11,4 +11,10 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
+
+  transition: background-color const.$animation-time;
+}
+
+.btn:hover {
+  background-color: darken(const.$blue, 10%);
 }

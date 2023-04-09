@@ -19,7 +19,7 @@
   },
   "plugins": ["react", "@typescript-eslint", "unicorn", "jsx-a11y"],
   "rules": {
-    "no-empty": 0,
+    "no-empty": 1,
     "no-console": 1,
     "no-debugger": 2,
     "no-dupe-args": 1,
@@ -56,6 +56,8 @@
     "unicorn/throw-new-error": 1,
     "unicorn/prefer-node-protocol": 1,
     "react/react-in-jsx-scope": 0,
-    "react/prop-types": 0
+    "react/prop-types": 0,
+    "@typescript-eslint/no-empty-function": 1,
+    "@typescript-eslint/ban-types": 1
   }
 }

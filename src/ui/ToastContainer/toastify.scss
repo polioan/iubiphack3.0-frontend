@@ -1,0 +1,12 @@
+@use '../../styles/const.scss';
+
+.Toastify__toast {
+  box-shadow: none;
+  border-radius: const.$border-radius;
+  margin-bottom: const.$small-padding;
+  font-family: inherit;
+}
+
+.Toastify__progress-bar-theme--light {
+  background: const.$dark-blue;
+}

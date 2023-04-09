@@ -6,6 +6,11 @@
   font-style: normal;
   font-weight: 400;
   color: const.$dark-blue;
+  transition: color const.$animation-time;
+}
+
+.link:hover {
+  color: darken(const.$dark-blue, 10%);
 }
 
 .small {

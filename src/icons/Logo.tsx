@@ -1,6 +1,7 @@
-const Logo: React.FC = () => {
+const Logo: React.FC<{ className?: string | undefined }> = ({ className }) => {
   return (
     <svg
+      className={className}
       role='img'
       aria-label='Логотип'
       width='60'

@@ -1,6 +1,7 @@
-const User: React.FC = () => {
+const User: React.FC<{ className?: string | undefined }> = ({ className }) => {
   return (
     <svg
+      className={className}
       role='img'
       aria-label='Иконка - пользователь'
       width='64'
